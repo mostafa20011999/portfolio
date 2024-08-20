@@ -1,0 +1,30 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/contact-me.png);
+    background-size: 100% 100%;
+    
+}
+.contain{
+    background-color:rgba(24, 24, 24, 0.616);
+    border-radius:10px;
+    padding: 10px 10px;
+}
+p{
+    color:white;
+    padding:10px 10px;
+    font-size:30px;
+    border:1px solid rgb(223, 215, 215);
+    border-radius: 7px;
+}
+a{
+    color:rgb(178, 221, 183);
+}
+@media (max-width:600px){
+p{
+    font-size:20px;
+}
+
+}

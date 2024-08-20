@@ -1,0 +1,48 @@
+.profile-image{
+  border-radius: 50% !important;
+}
+.carousel-1{
+  width:50%;
+margin-right:25%;
+margin-left:25%;
+height:600px;
+}
+#myCarousel{
+  background-color: rgb(233, 233, 233) !important;
+}
+.carousel-img{
+  width:50% ;
+  height:800px ;
+}
+.carousel-img2{
+  width:50% ;
+  height:600px ;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+@media (max-width:1000px){
+  .carousel-img{
+    width:400 ;
+    height:300px;
+  }
+}
